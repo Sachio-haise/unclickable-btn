@@ -17,7 +17,7 @@ const contentRect = content.getBoundingClientRect();
 
 const noBtnRect = noBtn.getBoundingClientRect();
 
-noBtn.addEventListener('click', () => {
+noBtn.addEventListener('mouseover', () => {
     const i = Math.floor(Math.random() * (contentRect.width - noBtnRect.width));
 
     const j = Math.floor(Math.random() * (contentRect.height - noBtnRect.height));
