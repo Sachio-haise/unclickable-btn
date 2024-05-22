@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #EA9E8D;
+    background: #fff;
 }
 
 .main {
@@ -20,7 +20,7 @@ body {
 }
 
 .content {
-    background: #cd5d67;
+    background: #FF0000;
     color: #fff;
     height: 400px;
     width: 500px;
@@ -46,7 +46,7 @@ body {
 .btn-group a {
     width: 90px;
     height: inherit;
-    background: #EA9E8D;
+    background: #FF0000;
     color: #fff;
     border: 2px solid #fff;
     text-decoration: none;

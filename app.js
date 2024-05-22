@@ -9,7 +9,7 @@ const yesBtn = document.querySelector('#yes-btn');
 const noBtn = document.querySelector('#no-btn');
 
 yesBtn.addEventListener('click', () => {
-    title.innerHTML = 'Thanks For Accepting!'
+    title.innerHTML = 'I Love You Too!'
     buttons.style.display = 'none';
 })
 
